@@ -872,6 +872,7 @@ body {
 
 .modal-form{
   display: flex;
+  flex-direction: column;
   justify-content: center; 
 }
 
@@ -908,6 +909,12 @@ input{
   border-radius: 4px;
 }
 
+.modal-input-icon{
+  width: 18px;
+  height: 18px;
+  fill: var(--color-dark-212121);
+}
+
 .modal-link{
   margin: 10px 0 30px 0;
   font-weight: 400;
@@ -930,6 +937,16 @@ input{
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
+}
+
+.modal-input-ch{
+  display: flex;
+  align-items: center;
+}
+
+.modal-input-check{
+  width: 16px;
+  height: 15px;
 }
 
 .is-hidden{
