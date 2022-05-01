@@ -872,11 +872,12 @@ body {
 }
 
 .modal-close-btn{
-  width: 11px;
-  height: 11px;
+  position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  width: 11px;
+  height: 11px;
 }
 
 .modal-form{
@@ -917,6 +918,10 @@ input{
   background-color: transparent;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+}
+
+.modal-input-cont{
+  position: relative;
 }
 
 .modal-input-icon{
