@@ -869,6 +869,13 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close:focus
+.modal-close:hover{
+  fill: var(--focus-color-blue);
 }
 
 .modal-close-btn{
@@ -926,14 +933,12 @@ input{
 
 .modal-input-icon{
   position: absolute;
-  /*left: 15px;*/
   top: 50%;
   transform: translate(15px, -50%);
-  
 
   width: 18px;
   height: 18px;
-  color: var(--color-dark-212121);
+  fill: var(--color-dark-212121);
 }
 
 .modal-link{
@@ -991,7 +996,15 @@ input{
 .modal-btn{
   width:200px;
   height: 50px;
+  background-color: var(--focus-color-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.149);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-btn:focus,
+.modal-btn:hover{
+  background-color: #188CE8;
 }
 
 .is-hidden{
