@@ -667,7 +667,7 @@ body {
 }
 
 .footer-form-input{
-  display: inline;
+  display: inline-block;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -675,6 +675,7 @@ body {
   width: 360px;
   height: 50px;
   padding-left: 15px;
+  margin-right: 10px;
 }
 
 .footer-form-input::placeholder{
@@ -694,7 +695,7 @@ body {
 }
 
 .footer-form-btn{
-  display: inline;
+  display: inline-block;
   width: 24px;
   height: 24px;
   margin-left: 10px;
