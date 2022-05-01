@@ -219,11 +219,6 @@ body {
   justify-content: center;
 }
 
-/* .modal-btn {
-  width: 200px;
-  height: 50px;
-} */
-
 .btn {
   background-color: var(--focus-color-blue);
   color: var(--color-white-ffffff);
@@ -240,15 +235,6 @@ body {
   border-radius: 4px;
 
   padding: 10px 32px;
-/*new*/
-  background-color: var(--focus-color-blue);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.149);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal:focus,
-.modal:hover {
-  background-color: #188CE8;
 }
 
 /* ---second section---*/
@@ -1003,6 +989,18 @@ input{
 input:focus,
 input:hover {
   border: 1px solid var(--focus-color-blue);
+}
+
+input:placeholder{ /*::*/
+  color: transparent;
+}
+
+input:placeholder-shown { /*::*/
+  border-color: rgba(33, 33, 33, 0.2);
+}
+
+input:not(:placeholder) { /*::*/
+  border-color: var(--focus-color-blue);
 }
 
 .modal-input-cont{
