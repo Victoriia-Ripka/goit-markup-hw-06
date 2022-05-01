@@ -976,7 +976,7 @@ input{
   border-radius: 4px;
 }
 
-input:not(:placeholder-shown) {
+input:placeholder-shown {
   border: 1px solid var(--focus-color-blue);
 }
 
