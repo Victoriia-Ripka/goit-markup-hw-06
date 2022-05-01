@@ -927,6 +927,10 @@ input{
   border-radius: 4px;
 }
 
+штзгеt:not(:placeholder-shown) {
+  border-color: var(--focus-color-blue);
+}
+
 .modal-input-cont{
   position: relative;
 }
