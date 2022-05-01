@@ -871,6 +871,14 @@ body {
   cursor: pointer;
 }
 
+.modal-close-btn{
+  width: 11px;
+  height: 11px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .modal-form{
   display: flex;
   flex-direction: column;
@@ -946,10 +954,20 @@ input{
   border-radius: 4px;
 }
 
+.modal-comment-text::placeholder{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  
+  color: #75757580;
+}
+
 .modal-input-ch{
   margin: 10px 0 30px 0;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .modal-input-check{
@@ -967,6 +985,7 @@ input{
 .modal-btn{
   width:200px;
   height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.149);
 }
 
 .is-hidden{
