@@ -874,7 +874,6 @@ body {
 .modal-form{
   display: flex;
   flex-direction: column;
-  justify-content: center; 
 }
 
 .modal-title{
@@ -958,6 +957,11 @@ input{
   height: 15px;
   padding-left: 15px;
   padding-right: 7px;
+}
+
+.modal-input-btn{
+  display: flex;
+  justify-content: center;
 }
 
 .modal-btn{
