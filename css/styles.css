@@ -608,6 +608,10 @@ body {
   color: var(--focus-color-blue);
 }
 
+.footer-social{
+  margin-right: 95px;
+}
+
 .footer-social-title{
   font-weight: 700;
   font-size: 14px;
