@@ -978,6 +978,10 @@ label{
   
   color: var(--color-grey-757575);
 }
+/*new*/
+label:focus-within + input{
+  border: 1px solid var(--focus-color-blue);
+}
 
 input{
   position: relative;
