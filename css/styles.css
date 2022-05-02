@@ -1032,18 +1032,6 @@ input:focus-within{
   color:var(--focus-color-blue);
 }
 
-input:placeholder-shown{
-  color:transparent;
-  opacity: 0;
-}
-
-input:not(:placeholder-shown):required:valid {
-  border-color: var(--focus-color-blue);
-}
-
-input:not(:placeholder-shown):required:invalid {
-  border-color: #f44336;
-}
 /**/
 .modal-comment-text{
   width: 100%;
