@@ -609,7 +609,7 @@ body {
 }
 
 .footer-social{
-  margin-right: 95px;
+  margin-right: auto; /*95px*/
 }
 
 .footer-social-title{
@@ -962,9 +962,12 @@ body {
   color: var(--color-dark-212121);
 }
 
+.modal-input{
+  margin-top: 10px;
+}
+
 label{
   display: block;
-  margin-top: 10px;
   margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
