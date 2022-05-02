@@ -1022,14 +1022,13 @@ input:not(::placeholder) { /*::
   fill: var(--color-dark-212121);
 }
 
-input:focus + .modal-input-icon, /*+*/
+input:focus + .modal-input-icon,
 input:hover + .modal-input-icon{
   fill: var(--focus-color-blue);
 }
-/*hernia*/
+
 input:focus-within{
-  border-color: var(--focus-color-blue);
-  color:var(--focus-color-blue);
+  border: 2px solid var(--focus-color-blue);
 }
 
 /**/
