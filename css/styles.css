@@ -990,7 +990,9 @@ input{
 }
 
 input:focus,
-input:hover {
+input:hover,
+.modal-comment-text:focus,
+.modal-comment-text:hover {
   border: 1px solid var(--focus-color-blue);
 }
 
@@ -1048,6 +1050,12 @@ input:hover + .modal-input-icon{
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: var(--color-grey-757575)
 }
 
 .modal-comment-text::placeholder{
