@@ -1029,10 +1029,12 @@ input:hover + .modal-input-icon{
 /*hernia*/
 input:focus-within{
   border-color: var(--focus-color-blue);
+  color:var(--focus-color-blue);
 }
 
 input:placeholder-shown{
   color:transparent;
+  opacity: 0;
 }
 
 input:not(:placeholder-shown):required:valid {
@@ -1084,12 +1086,13 @@ input:not(:placeholder-shown):required:invalid {
   height: 15px;
 }
 
-.modal-input-check-hidden:checked + .modal-input-check{
+.modal-input-check-hidden:checked + .modal-link::before{
   background-color: var(--focus-color-blue);
   border-color: transparent;
+  /* background-image: url(../images/); */
 }
 
-.modal-input-check{
+.modal-link::before{
   position: relative;
   width: 16px;
   height: 15px;
