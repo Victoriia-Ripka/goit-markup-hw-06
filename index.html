@@ -455,18 +455,19 @@
                  </div>
 
                 <div class="modal-input">   
-                    <label class="modal-comment-title" for="comment">Комментарий</label>
+                    <label for="comment">Комментарий</label>
                     <textarea class="modal-comment-text" name="comment" id="comment" placeholder="Введите текст"></textarea>
                 </div>
 
                 <div class="modal-input-ch">   
-                    <input class="modal-input-check-hidden" type="checkbox"  id="privacy-check" name="privacy-check" required > <!-- is-hidden -->
-                    <div class="modal-input-check">
-                        <svg class="modal-input-check-mark">
-                            <use href="./images/icons/symbol-defs.svg#icon-mark"></use>
-                        </svg>
-                    </div>
-                    <label class="modal-link" for="privacy-check">Соглашаюсь с рассылкой и принимаю <a class="modal-link-doc">Условия договора</a></label>
+                    <input class="modal-input-check-hidden visually-hidden" type="checkbox"  id="privacy-check" name="privacy-check" required >
+                    <label class="modal-link" for="privacy-check">
+                        <span>
+                            <svg class="modal-input-check-mark">
+                                <use href="./images/icons/symbol-defs.svg#icon-mark"></use>
+                            </svg>
+                        </span>
+                        Соглашаюсь с рассылкой и принимаю <a class="modal-link-doc">Условия договора</a></label>
                 </div>
 
                 <div class="modal-input-btn">
